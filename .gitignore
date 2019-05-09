@@ -1,9 +1,2 @@
-
-*.exe
-*.pdb
-*.cache
-*.txt
-*.resources
-*.cs
-GC_QL_T15/bin/Debug/GC_QL_T15.exe.config
-GC_QL_T15/bin/Debug/GC_QL_T15.vshost.exe.config
+GC_QL_T15/bin
+GC_QL_T15/obj
