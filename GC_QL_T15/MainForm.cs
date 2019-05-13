@@ -11,17 +11,17 @@ using System.IO.Ports;
 
 namespace GC_QL_T15
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         SerialPort serialPort;
         MsgFrame msg_frame_0x05;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             serialPort = new SerialPort();
 
-            msg_frame_0x05 = new MsgFrame(); 
+            msg_frame_0x05 = new MsgFrame();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,8 +37,8 @@ namespace GC_QL_T15
                 serialPort.Open();
                 button_SerialOpenClose.Text = "关闭";
             }
-            else if(button_SerialOpenClose.Text == "关闭")
-            { 
+            else if (button_SerialOpenClose.Text == "关闭")
+            {
                 serialPort.Close();
                 button_SerialOpenClose.Text = "打开";
             }
@@ -49,6 +49,11 @@ namespace GC_QL_T15
 
         }
 
+        /// <summary>
+        /// 串口扫描按钮点击处理
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_SerialScan_Click(object sender, EventArgs e)
         {
             int i = 0;
@@ -83,61 +88,44 @@ namespace GC_QL_T15
             }
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
-
-        void Msg0x05Encode( )
+        /// <summary>
+        /// MSG 0x05帧数据组包
+        /// </summary>
+        void Msg0x05Encode()
         {
             byte[] dat = new byte[8];
             byte[] frame = new byte[12];
             UInt16 val16 = 0;
 
-            if (textBox1.Text == "")
+            if (textBox_Speed.Text == "")
             {
-                textBox1.Text = "0";
+                textBox_Speed.Text = "0";
             }
-            if (textBox2.Text == "")
+            if (textBox_InstantaneousPower.Text == "")
             {
-                textBox2.Text = "0";
+                textBox_InstantaneousPower.Text = "0";
             }
-            if (textBox3.Text == "")
+            if (textBox_InstantaneousEnergyConsumption.Text == "")
             {
-                textBox3.Text = "0";
+                textBox_InstantaneousEnergyConsumption.Text = "0";
             }
-            if (textBox4.Text == "")
+            if (textBox_HundredKilometersOfEnergyConsumption.Text == "")
             {
-                textBox4.Text = "0";
+                textBox_HundredKilometersOfEnergyConsumption.Text = "0";
             }
 
             //车速
-            val16 = Convert.ToUInt16(textBox1.Text);
+            val16 = Convert.ToUInt16(textBox_Speed.Text);
             dat[0] = (byte)val16;
             dat[1] = (byte)(val16 >> 8);
             //瞬时功率
-            val16 = Convert.ToUInt16(textBox2.Text);
+            val16 = Convert.ToUInt16(textBox_InstantaneousPower.Text);
             dat[2] = (byte)val16;
             dat[3] = (byte)(val16 >> 8);
             //瞬时能耗
-            dat[4] = Convert.ToByte(textBox3.Text);
+            dat[4] = Convert.ToByte(textBox_InstantaneousEnergyConsumption.Text);
             //百公里能耗
-            dat[5] = Convert.ToByte(textBox4.Text);
+            dat[5] = Convert.ToByte(textBox_HundredKilometersOfEnergyConsumption.Text);
 
 
             frame = msg_frame_0x05.Encode(0x05, dat);
@@ -148,7 +136,8 @@ namespace GC_QL_T15
             }
         }
 
-        private void button_0x05Send_Click(object sender, EventArgs e)
+
+        private void Msg0x05Send(object sender, EventArgs e)
         {
             if (textBox_0x05Send.Text == "")
             {
@@ -158,81 +147,27 @@ namespace GC_QL_T15
             serialPort.Write(msg_frame_0x05.HexStringToByteArray(textBox_0x05Send.Text), 0, 12);
         }
 
-        private void textBox1Refresh()
+        private void textBox_SpeedChange(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
-            {
-                textBox1.Text = "0";
-            }
+            trackBar_Speed.Value = Convert.ToInt32(textBox_Speed.Text);
+        }
 
-            trackBar1.Value = Convert.ToInt32(textBox1.Text);
+        private void trackerBar_SpeedChange(object sender, EventArgs e)
+        {
+            textBox_Speed.Text = trackBar_Speed.Value.ToString();
+        }
 
+        private void SpeedChangeConfirm()
+        {
             Msg0x05Encode();
         }
 
-        private void trackBar1Refresh()
-        {
-            textBox1.Text = trackBar1.Value.ToString();
-
-            Msg0x05Encode();
-        }
-
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            textBox1Refresh();
-        }
-
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBox_Speed_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                textBox1Refresh();
+                SpeedChangeConfirm();
             }
         }
-
-        private void trackBar1_MouseUp(object sender, MouseEventArgs e)
-        {
-            trackBar1Refresh();
-        }
-
-        private void trackBar1_KeyUp(object sender, KeyEventArgs e)
-        {
-            
-        }
-
-        private void trackBar1_ValueChanged(object sender, EventArgs e)
-        {
-            textBox1.Text = trackBar1.Value.ToString();
-        }
-        private void textBox2_Leave(object sender, EventArgs e)
-        {
-            if (textBox2.Text == "")
-            {
-                textBox2.Text = "0";
-            }
-
-            Msg0x05Encode();
-        }
-
-        private void textBox3_Leave(object sender, EventArgs e)
-        {
-            if (textBox3.Text == "")
-            {
-                textBox3.Text = "0";
-            }
-
-            Msg0x05Encode();
-        }
-
-        private void textBox4_Leave(object sender, EventArgs e)
-        {
-            if (textBox4.Text == "")
-            {
-                textBox4.Text = "0";
-            }
-
-            Msg0x05Encode();
-        }
-
     }
 }
