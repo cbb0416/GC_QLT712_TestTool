@@ -147,6 +147,7 @@ namespace GC_QL_T15
             serialPort.Write(msg_frame_0x05.HexStringToByteArray(textBox_0x05Send.Text), 0, 12);
         }
 
+        /****************************************** 车速 ****************************************/
         private void textBox_SpeedChange(object sender, EventArgs e)
         {
             trackBar_Speed.Value = Convert.ToInt32(textBox_Speed.Text);
@@ -159,15 +160,20 @@ namespace GC_QL_T15
 
         private void SpeedChangeConfirm()
         {
-            Msg0x05Encode();
+            //Msg0x05Encode();
         }
 
         private void textBox_Speed_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                SpeedChangeConfirm();
+                //SpeedChangeConfirm();
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

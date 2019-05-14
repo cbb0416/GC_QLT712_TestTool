@@ -73,20 +73,20 @@
             this.button_SerialScan = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.trackBar4 = new System.Windows.Forms.TrackBar();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.trackBar4 = new System.Windows.Forms.TrackBar();
+            this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -105,6 +105,15 @@
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
+            this.trackBar15 = new System.Windows.Forms.TrackBar();
+            this.trackBar14 = new System.Windows.Forms.TrackBar();
+            this.trackBar13 = new System.Windows.Forms.TrackBar();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
             this.trackBar9 = new System.Windows.Forms.TrackBar();
             this.trackBar10 = new System.Windows.Forms.TrackBar();
             this.trackBar11 = new System.Windows.Forms.TrackBar();
@@ -117,15 +126,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.trackBar13 = new System.Windows.Forms.TrackBar();
-            this.trackBar14 = new System.Windows.Forms.TrackBar();
-            this.trackBar15 = new System.Windows.Forms.TrackBar();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox19 = new System.Windows.Forms.TextBox();
@@ -156,6 +156,11 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.number3 = new Number.Number();
+            this.number2 = new Number.Number();
+            this.number1 = new Number.Number();
+            this.num_Speed = new Number.Number();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Speed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_InstantaneousPower)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_InstantaneousEnergyConsumption)).BeginInit();
@@ -167,23 +172,23 @@
             this.groupBox2.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).BeginInit();
             this.groupBox9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar15)).BeginInit();
             this.groupBox10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar17)).BeginInit();
@@ -194,6 +199,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar23)).BeginInit();
+            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -684,37 +690,83 @@
             this.groupBox7.Controls.Add(this.label6);
             this.groupBox7.Location = new System.Drawing.Point(566, 70);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(324, 163);
+            this.groupBox7.Size = new System.Drawing.Size(293, 163);
             this.groupBox7.TabIndex = 18;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "0x06";
             // 
-            // label6
+            // button1
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 21);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 12);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "总电压:";
+            this.button1.Location = new System.Drawing.Point(238, 132);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(46, 23);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "发送";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // textBox5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 48);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 12);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "总电流:";
+            this.textBox5.Location = new System.Drawing.Point(8, 131);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(224, 21);
+            this.textBox5.TabIndex = 21;
             // 
-            // label8
+            // trackBar4
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 74);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 12);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "单体最高电圧:";
+            this.trackBar4.Location = new System.Drawing.Point(180, 98);
+            this.trackBar4.Name = "trackBar4";
+            this.trackBar4.Size = new System.Drawing.Size(104, 45);
+            this.trackBar4.TabIndex = 20;
+            // 
+            // trackBar3
+            // 
+            this.trackBar3.Location = new System.Drawing.Point(180, 71);
+            this.trackBar3.Name = "trackBar3";
+            this.trackBar3.Size = new System.Drawing.Size(104, 45);
+            this.trackBar3.TabIndex = 19;
+            // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(180, 44);
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(104, 45);
+            this.trackBar2.TabIndex = 9;
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(180, 17);
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 8;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(110, 98);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(62, 21);
+            this.textBox4.TabIndex = 7;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(110, 71);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(62, 21);
+            this.textBox3.TabIndex = 6;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(110, 44);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(62, 21);
+            this.textBox2.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(110, 17);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(62, 21);
+            this.textBox1.TabIndex = 4;
             // 
             // label9
             // 
@@ -725,78 +777,32 @@
             this.label9.TabIndex = 3;
             this.label9.Text = "单体最低电压:";
             // 
-            // textBox1
+            // label8
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
-            this.textBox1.TabIndex = 4;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 74);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(83, 12);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "单体最高电圧:";
             // 
-            // textBox2
+            // label7
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
-            this.textBox2.TabIndex = 5;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 48);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 12);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "总电流:";
             // 
-            // textBox3
+            // label6
             // 
-            this.textBox3.Location = new System.Drawing.Point(110, 71);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 21);
-            this.textBox3.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(110, 98);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 21);
-            this.textBox4.TabIndex = 7;
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(214, 18);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(104, 45);
-            this.trackBar1.TabIndex = 8;
-            // 
-            // trackBar2
-            // 
-            this.trackBar2.Location = new System.Drawing.Point(214, 45);
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(104, 45);
-            this.trackBar2.TabIndex = 9;
-            // 
-            // trackBar3
-            // 
-            this.trackBar3.Location = new System.Drawing.Point(214, 72);
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Size = new System.Drawing.Size(104, 45);
-            this.trackBar3.TabIndex = 19;
-            // 
-            // trackBar4
-            // 
-            this.trackBar4.Location = new System.Drawing.Point(214, 99);
-            this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Size = new System.Drawing.Size(104, 45);
-            this.trackBar4.TabIndex = 20;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(8, 131);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(224, 21);
-            this.textBox5.TabIndex = 21;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(238, 132);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "发送";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 21);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 12);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "总电压:";
             // 
             // groupBox8
             // 
@@ -816,7 +822,7 @@
             this.groupBox8.Controls.Add(this.label13);
             this.groupBox8.Location = new System.Drawing.Point(566, 241);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(324, 163);
+            this.groupBox8.Size = new System.Drawing.Size(293, 163);
             this.groupBox8.TabIndex = 23;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "0x07";
@@ -840,28 +846,28 @@
             // 
             // trackBar5
             // 
-            this.trackBar5.Location = new System.Drawing.Point(214, 99);
+            this.trackBar5.Location = new System.Drawing.Point(178, 98);
             this.trackBar5.Name = "trackBar5";
             this.trackBar5.Size = new System.Drawing.Size(104, 45);
             this.trackBar5.TabIndex = 20;
             // 
             // trackBar6
             // 
-            this.trackBar6.Location = new System.Drawing.Point(214, 72);
+            this.trackBar6.Location = new System.Drawing.Point(178, 71);
             this.trackBar6.Name = "trackBar6";
             this.trackBar6.Size = new System.Drawing.Size(104, 45);
             this.trackBar6.TabIndex = 19;
             // 
             // trackBar7
             // 
-            this.trackBar7.Location = new System.Drawing.Point(214, 45);
+            this.trackBar7.Location = new System.Drawing.Point(178, 44);
             this.trackBar7.Name = "trackBar7";
             this.trackBar7.Size = new System.Drawing.Size(104, 45);
             this.trackBar7.TabIndex = 9;
             // 
             // trackBar8
             // 
-            this.trackBar8.Location = new System.Drawing.Point(214, 18);
+            this.trackBar8.Location = new System.Drawing.Point(178, 17);
             this.trackBar8.Name = "trackBar8";
             this.trackBar8.Size = new System.Drawing.Size(104, 45);
             this.trackBar8.TabIndex = 8;
@@ -870,28 +876,28 @@
             // 
             this.textBox7.Location = new System.Drawing.Point(110, 98);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 21);
+            this.textBox7.Size = new System.Drawing.Size(62, 21);
             this.textBox7.TabIndex = 7;
             // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(110, 71);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 21);
+            this.textBox8.Size = new System.Drawing.Size(62, 21);
             this.textBox8.TabIndex = 6;
             // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(110, 44);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 21);
+            this.textBox9.Size = new System.Drawing.Size(62, 21);
             this.textBox9.TabIndex = 5;
             // 
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(110, 17);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 21);
+            this.textBox10.Size = new System.Drawing.Size(62, 21);
             this.textBox10.TabIndex = 4;
             // 
             // label10
@@ -957,7 +963,7 @@
             this.groupBox9.Controls.Add(this.label17);
             this.groupBox9.Location = new System.Drawing.Point(566, 410);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(324, 241);
+            this.groupBox9.Size = new System.Drawing.Size(293, 241);
             this.groupBox9.TabIndex = 24;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "0x08";
@@ -979,30 +985,99 @@
             this.textBox11.Size = new System.Drawing.Size(224, 21);
             this.textBox11.TabIndex = 21;
             // 
+            // trackBar15
+            // 
+            this.trackBar15.Location = new System.Drawing.Point(180, 183);
+            this.trackBar15.Name = "trackBar15";
+            this.trackBar15.Size = new System.Drawing.Size(104, 45);
+            this.trackBar15.TabIndex = 31;
+            // 
+            // trackBar14
+            // 
+            this.trackBar14.Location = new System.Drawing.Point(180, 156);
+            this.trackBar14.Name = "trackBar14";
+            this.trackBar14.Size = new System.Drawing.Size(104, 45);
+            this.trackBar14.TabIndex = 30;
+            // 
+            // trackBar13
+            // 
+            this.trackBar13.Location = new System.Drawing.Point(180, 129);
+            this.trackBar13.Name = "trackBar13";
+            this.trackBar13.Size = new System.Drawing.Size(104, 45);
+            this.trackBar13.TabIndex = 29;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(6, 186);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(107, 12);
+            this.label20.TabIndex = 28;
+            this.label20.Text = "单体最低电压编号:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 159);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(107, 12);
+            this.label19.TabIndex = 27;
+            this.label19.Text = "单体最高电压编号:";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(110, 183);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(62, 21);
+            this.textBox18.TabIndex = 26;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 132);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(107, 12);
+            this.label18.TabIndex = 25;
+            this.label18.Text = "单体最高温度编码:";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(110, 156);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(62, 21);
+            this.textBox17.TabIndex = 24;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(110, 129);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(62, 21);
+            this.textBox16.TabIndex = 23;
+            // 
             // trackBar9
             // 
-            this.trackBar9.Location = new System.Drawing.Point(216, 102);
+            this.trackBar9.Location = new System.Drawing.Point(180, 102);
             this.trackBar9.Name = "trackBar9";
             this.trackBar9.Size = new System.Drawing.Size(104, 45);
             this.trackBar9.TabIndex = 20;
             // 
             // trackBar10
             // 
-            this.trackBar10.Location = new System.Drawing.Point(216, 75);
+            this.trackBar10.Location = new System.Drawing.Point(180, 75);
             this.trackBar10.Name = "trackBar10";
             this.trackBar10.Size = new System.Drawing.Size(104, 45);
             this.trackBar10.TabIndex = 19;
             // 
             // trackBar11
             // 
-            this.trackBar11.Location = new System.Drawing.Point(216, 48);
+            this.trackBar11.Location = new System.Drawing.Point(180, 48);
             this.trackBar11.Name = "trackBar11";
             this.trackBar11.Size = new System.Drawing.Size(104, 45);
             this.trackBar11.TabIndex = 9;
             // 
             // trackBar12
             // 
-            this.trackBar12.Location = new System.Drawing.Point(216, 21);
+            this.trackBar12.Location = new System.Drawing.Point(180, 21);
             this.trackBar12.Name = "trackBar12";
             this.trackBar12.Size = new System.Drawing.Size(104, 45);
             this.trackBar12.TabIndex = 8;
@@ -1011,28 +1086,28 @@
             // 
             this.textBox12.Location = new System.Drawing.Point(110, 102);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 21);
+            this.textBox12.Size = new System.Drawing.Size(62, 21);
             this.textBox12.TabIndex = 7;
             // 
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(110, 75);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 21);
+            this.textBox13.Size = new System.Drawing.Size(62, 21);
             this.textBox13.TabIndex = 6;
             // 
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(110, 48);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 21);
+            this.textBox14.Size = new System.Drawing.Size(62, 21);
             this.textBox14.TabIndex = 5;
             // 
             // textBox15
             // 
             this.textBox15.Location = new System.Drawing.Point(110, 21);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 21);
+            this.textBox15.Size = new System.Drawing.Size(62, 21);
             this.textBox15.TabIndex = 4;
             // 
             // label14
@@ -1070,75 +1145,6 @@
             this.label17.Size = new System.Drawing.Size(59, 12);
             this.label17.TabIndex = 0;
             this.label17.Text = "电机温度:";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(110, 129);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 21);
-            this.textBox16.TabIndex = 23;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(110, 156);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 21);
-            this.textBox17.TabIndex = 24;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 132);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(107, 12);
-            this.label18.TabIndex = 25;
-            this.label18.Text = "单体最高温度编码:";
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(110, 183);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 21);
-            this.textBox18.TabIndex = 26;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(6, 159);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(107, 12);
-            this.label19.TabIndex = 27;
-            this.label19.Text = "单体最高电压编号:";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(6, 186);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(107, 12);
-            this.label20.TabIndex = 28;
-            this.label20.Text = "单体最低电压编号:";
-            // 
-            // trackBar13
-            // 
-            this.trackBar13.Location = new System.Drawing.Point(216, 129);
-            this.trackBar13.Name = "trackBar13";
-            this.trackBar13.Size = new System.Drawing.Size(104, 45);
-            this.trackBar13.TabIndex = 29;
-            // 
-            // trackBar14
-            // 
-            this.trackBar14.Location = new System.Drawing.Point(216, 156);
-            this.trackBar14.Name = "trackBar14";
-            this.trackBar14.Size = new System.Drawing.Size(104, 45);
-            this.trackBar14.TabIndex = 30;
-            // 
-            // trackBar15
-            // 
-            this.trackBar15.Location = new System.Drawing.Point(216, 183);
-            this.trackBar15.Name = "trackBar15";
-            this.trackBar15.Size = new System.Drawing.Size(104, 45);
-            this.trackBar15.TabIndex = 31;
             // 
             // groupBox10
             // 
@@ -1404,11 +1410,66 @@
             this.label28.TabIndex = 0;
             this.label28.Text = "故障代码1:";
             // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.number3);
+            this.groupBox12.Controls.Add(this.number2);
+            this.groupBox12.Controls.Add(this.number1);
+            this.groupBox12.Controls.Add(this.num_Speed);
+            this.groupBox12.Location = new System.Drawing.Point(12, 277);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(548, 271);
+            this.groupBox12.TabIndex = 27;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "0x05";
+            // 
+            // number3
+            // 
+            this.number3._BitLen = 8;
+            this.number3._Resolution = 1;
+            this.number3._Text = "百公里能耗:";
+            this.number3.Location = new System.Drawing.Point(7, 103);
+            this.number3.Name = "number3";
+            this.number3.Size = new System.Drawing.Size(298, 22);
+            this.number3.TabIndex = 3;
+            // 
+            // number2
+            // 
+            this.number2._BitLen = 8;
+            this.number2._Resolution = 1;
+            this.number2._Text = "瞬时能耗:";
+            this.number2.Location = new System.Drawing.Point(7, 75);
+            this.number2.Name = "number2";
+            this.number2.Size = new System.Drawing.Size(298, 22);
+            this.number2.TabIndex = 2;
+            // 
+            // number1
+            // 
+            this.number1._BitLen = 8;
+            this.number1._Resolution = 1;
+            this.number1._Text = "瞬时功率:";
+            this.number1.Location = new System.Drawing.Point(7, 47);
+            this.number1.Name = "number1";
+            this.number1.Size = new System.Drawing.Size(298, 22);
+            this.number1.TabIndex = 1;
+            // 
+            // num_Speed
+            // 
+            this.num_Speed._BitLen = 8;
+            this.num_Speed._Max = 9999;
+            this.num_Speed._Resolution = 1;
+            this.num_Speed._Text = "车速:";
+            this.num_Speed.Location = new System.Drawing.Point(7, 19);
+            this.num_Speed.Name = "num_Speed";
+            this.num_Speed.Size = new System.Drawing.Size(298, 22);
+            this.num_Speed.TabIndex = 0;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1229, 752);
+            this.Controls.Add(this.groupBox12);
             this.Controls.Add(this.groupBox11);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);
@@ -1418,6 +1479,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
             this.Text = "速显微电子-群龙T15测试";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Speed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_InstantaneousPower)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_InstantaneousEnergyConsumption)).EndInit();
@@ -1436,10 +1498,10 @@
             this.groupBox6.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
@@ -1448,13 +1510,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).EndInit();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar15)).EndInit();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar16)).EndInit();
@@ -1467,6 +1529,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar23)).EndInit();
+            this.groupBox12.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1601,6 +1664,11 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private Number.Number num_Speed;
+        private Number.Number number3;
+        private Number.Number number2;
+        private Number.Number number1;
 
     }
 }

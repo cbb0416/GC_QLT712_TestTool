@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC_QLT15_TestTool", "GC_QL_T15\GC_QLT15_TestTool.csproj", "{2046D3C8-0A37-4C6D-8DF8-58CB2B948EEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number", "Number\Number.csproj", "{8521DB51-4A50-4E77-88BA-C0CC6FDEEF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleSelect", "SingleSelect\SingleSelect.csproj", "{3582CD43-B0A9-473E-9FFD-EB9BCEED9950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{2046D3C8-0A37-4C6D-8DF8-58CB2B948EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2046D3C8-0A37-4C6D-8DF8-58CB2B948EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2046D3C8-0A37-4C6D-8DF8-58CB2B948EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8521DB51-4A50-4E77-88BA-C0CC6FDEEF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8521DB51-4A50-4E77-88BA-C0CC6FDEEF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8521DB51-4A50-4E77-88BA-C0CC6FDEEF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8521DB51-4A50-4E77-88BA-C0CC6FDEEF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3582CD43-B0A9-473E-9FFD-EB9BCEED9950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3582CD43-B0A9-473E-9FFD-EB9BCEED9950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3582CD43-B0A9-473E-9FFD-EB9BCEED9950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3582CD43-B0A9-473E-9FFD-EB9BCEED9950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

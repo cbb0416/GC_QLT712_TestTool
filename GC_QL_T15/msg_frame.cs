@@ -189,16 +189,22 @@ namespace GC_QL_T15
 
     class MsgFrame05 : MsgFrame
     {
-        public UInt16 Speed = 0;    //车速
-        public UInt16 InstantaneousPower = 0;  //瞬时功率
-        public UInt16 InstantaneousEnergyConsumption = 0;//瞬时能耗
-        public UInt16 HundredKilometersOfEnergyConsumption = 0;//百公里能耗
-        public enum_GEAR Gear = (enum_GEAR)0;
-        public enum_PAGE Page = (enum_PAGE)0;
-        public enum_RUNNING_PAGE_DISP RunningPageDisp = (enum_RUNNING_PAGE_DISP)0;
-        public enum_POPUP_PAGE_DISP PopupPageDisp = (enum_POPUP_PAGE_DISP)0;
+        private UInt16 speed = 0;    //车速
+        private UInt16 instantaneous_power = 0;  //瞬时功率
+        private UInt16 instantaneous_energy_consumption = 0;//瞬时能耗
+        private UInt16 hundred_kilometers_of_energy_consumption = 0;//百公里能耗
+        private enum_GEAR gear = (enum_GEAR)0;
+        private enum_PAGE page = (enum_PAGE)0;
+        private enum_RUNNING_PAGE_DISP running_page_disp = (enum_RUNNING_PAGE_DISP)0;
+        private enum_POPUP_PAGE_DISP popup_page_disp = (enum_POPUP_PAGE_DISP)0;
+        private byte[] dat;
 
-        public delegate void ItemValueChangeHandler(enum_MSG05_ITEM item, Int32 val);
+        public MsgFrame05()
+        {
+            dat = new byte[8];
+        }
+
+        /*public delegate void ItemValueChangeHandler(enum_MSG05_ITEM item, Int32 val);
         public event ItemValueChangeHandler ItemValueChangeEvent;
 
         public delegate void SpeedChangedHandler(UInt16 value);
@@ -206,29 +212,16 @@ namespace GC_QL_T15
 
         public void SetSpeed(enum_MSG05_ITEM item, UInt16 speed)
         {
-            /*switch (item)
-            {
-                case (enum_MSG05_ITEM)MSG05_ITEM_SPEED:
-                    break;
-                case MSG05_ITEM_INSTANTANEOUS_POWER:
-                    break;
-                case MSG05_ITEM_INSTANTANEOUS_ENERGY_CONSUMPTION:
-                    break;
-                case MSG05_ITEM_HUNDRED_KILOMETER_OF_ENERGY_CONSUMPTION:
-                    break;
-                case MSG05_ITEM_GEAR:
-                    break;
-                case MSG05_ITEM_PAGE:
-                    break;
-                case MSG05_ITEM_RUNNING_PAGE_DISP:
-                    break;
-                case MSG05_ITEM_POPUP_PAGE_DISP:
-                    break;
-            }*/
             if (SpeedChanged != null)
             {
                 SpeedChanged(speed);
             }
+        }*/
+
+        public UInt16 Speed
+        {
+            get { return speed; }
+            set { speed = value; }
         }
     }
 }
