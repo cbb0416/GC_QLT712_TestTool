@@ -4,3 +4,4 @@ F:\Github\GC_QLT15_TestTool\Number\obj\Debug\Number.csproj.GenerateResource.Cach
 F:\Github\GC_QLT15_TestTool\Number\obj\Debug\Number.dll
 F:\Github\GC_QLT15_TestTool\Number\obj\Debug\Number.pdb
 F:\Github\GC_QLT15_TestTool\Number\obj\Debug\Number.Number.resources
+F:\Github\GC_QLT15_TestTool\Number\obj\Debug\Number.csprojResolveAssemblyReference.cache
