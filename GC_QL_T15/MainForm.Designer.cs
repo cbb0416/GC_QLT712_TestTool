@@ -2525,7 +2525,7 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
-            this.Text = "速显微电子-群龙T15测试";
+            this.Text = "速显微电子-群龙T15测试 V1.0";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
