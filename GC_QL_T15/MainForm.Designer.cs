@@ -49,7 +49,6 @@
             this.radioButton15 = new System.Windows.Forms.RadioButton();
             this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
@@ -91,6 +90,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.checkBox34 = new System.Windows.Forms.CheckBox();
             this.button_0x08Send = new System.Windows.Forms.Button();
             this.textBox_0x08Send = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -202,6 +202,8 @@
             this.checkBox19 = new System.Windows.Forms.CheckBox();
             this.checkBox18 = new System.Windows.Forms.CheckBox();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.checkBox36 = new System.Windows.Forms.CheckBox();
+            this.checkBox35 = new System.Windows.Forms.CheckBox();
             this.groupBox20 = new System.Windows.Forms.GroupBox();
             this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.radioButton50 = new System.Windows.Forms.RadioButton();
@@ -229,9 +231,8 @@
             this.radioButton37 = new System.Windows.Forms.RadioButton();
             this.button_0x0DSend = new System.Windows.Forms.Button();
             this.textBox_0x0DSend = new System.Windows.Forms.TextBox();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
+            this.checkBox37 = new System.Windows.Forms.CheckBox();
+            this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -258,7 +259,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 21);
+            this.label1.Location = new System.Drawing.Point(12, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 12);
             this.label1.TabIndex = 0;
@@ -266,7 +267,7 @@
             // 
             // textBox_Speed
             // 
-            this.textBox_Speed.Location = new System.Drawing.Point(116, 18);
+            this.textBox_Speed.Location = new System.Drawing.Point(77, 21);
             this.textBox_Speed.Name = "textBox_Speed";
             this.textBox_Speed.Size = new System.Drawing.Size(66, 21);
             this.textBox_Speed.TabIndex = 1;
@@ -275,7 +276,7 @@
             // 
             // textBox_InstantaneousPower
             // 
-            this.textBox_InstantaneousPower.Location = new System.Drawing.Point(116, 45);
+            this.textBox_InstantaneousPower.Location = new System.Drawing.Point(77, 48);
             this.textBox_InstantaneousPower.Name = "textBox_InstantaneousPower";
             this.textBox_InstantaneousPower.Size = new System.Drawing.Size(66, 21);
             this.textBox_InstantaneousPower.TabIndex = 3;
@@ -285,7 +286,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 48);
+            this.label2.Location = new System.Drawing.Point(12, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 12);
             this.label2.TabIndex = 2;
@@ -293,7 +294,7 @@
             // 
             // textBox_InstantaneousEnergyConsumption
             // 
-            this.textBox_InstantaneousEnergyConsumption.Location = new System.Drawing.Point(116, 71);
+            this.textBox_InstantaneousEnergyConsumption.Location = new System.Drawing.Point(77, 74);
             this.textBox_InstantaneousEnergyConsumption.Name = "textBox_InstantaneousEnergyConsumption";
             this.textBox_InstantaneousEnergyConsumption.Size = new System.Drawing.Size(66, 21);
             this.textBox_InstantaneousEnergyConsumption.TabIndex = 5;
@@ -303,7 +304,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 74);
+            this.label3.Location = new System.Drawing.Point(12, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 12);
             this.label3.TabIndex = 4;
@@ -311,7 +312,7 @@
             // 
             // textBox_HundredKilometersOfEnergyConsumption
             // 
-            this.textBox_HundredKilometersOfEnergyConsumption.Location = new System.Drawing.Point(116, 98);
+            this.textBox_HundredKilometersOfEnergyConsumption.Location = new System.Drawing.Point(77, 101);
             this.textBox_HundredKilometersOfEnergyConsumption.Name = "textBox_HundredKilometersOfEnergyConsumption";
             this.textBox_HundredKilometersOfEnergyConsumption.Size = new System.Drawing.Size(66, 21);
             this.textBox_HundredKilometersOfEnergyConsumption.TabIndex = 10;
@@ -321,7 +322,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 101);
+            this.label4.Location = new System.Drawing.Point(12, 104);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 12);
             this.label4.TabIndex = 9;
@@ -329,6 +330,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox37);
             this.groupBox1.Controls.Add(this.button_0x05Send);
             this.groupBox1.Controls.Add(this.textBox_0x05Send);
             this.groupBox1.Controls.Add(this.groupBox5);
@@ -444,7 +446,6 @@
             this.groupBox4.Controls.Add(this.radioButton15);
             this.groupBox4.Controls.Add(this.radioButton14);
             this.groupBox4.Controls.Add(this.radioButton13);
-            this.groupBox4.Controls.Add(this.radioButton12);
             this.groupBox4.Controls.Add(this.radioButton11);
             this.groupBox4.Location = new System.Drawing.Point(335, 17);
             this.groupBox4.Name = "groupBox4";
@@ -456,7 +457,7 @@
             // radioButton15
             // 
             this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(6, 124);
+            this.radioButton15.Location = new System.Drawing.Point(6, 98);
             this.radioButton15.Name = "radioButton15";
             this.radioButton15.Size = new System.Drawing.Size(47, 16);
             this.radioButton15.TabIndex = 4;
@@ -467,7 +468,7 @@
             // radioButton14
             // 
             this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(6, 98);
+            this.radioButton14.Location = new System.Drawing.Point(6, 72);
             this.radioButton14.Name = "radioButton14";
             this.radioButton14.Size = new System.Drawing.Size(71, 16);
             this.radioButton14.TabIndex = 3;
@@ -478,24 +479,13 @@
             // radioButton13
             // 
             this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(6, 72);
+            this.radioButton13.Location = new System.Drawing.Point(6, 46);
             this.radioButton13.Name = "radioButton13";
             this.radioButton13.Size = new System.Drawing.Size(59, 16);
             this.radioButton13.TabIndex = 2;
             this.radioButton13.Text = "总电压";
             this.radioButton13.UseVisualStyleBackColor = true;
             this.radioButton13.CheckedChanged += new System.EventHandler(this.Msg0x05Encode);
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(6, 46);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(71, 16);
-            this.radioButton12.TabIndex = 1;
-            this.radioButton12.Text = "行驶时间";
-            this.radioButton12.UseVisualStyleBackColor = true;
-            this.radioButton12.CheckedChanged += new System.EventHandler(this.Msg0x05Encode);
             // 
             // radioButton11
             // 
@@ -809,6 +799,7 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.checkBox38);
             this.groupBox8.Controls.Add(this.button_0x07Send);
             this.groupBox8.Controls.Add(this.textBox_0x07Send);
             this.groupBox8.Controls.Add(this.textBox7);
@@ -846,16 +837,16 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(222, 45);
+            this.textBox7.Location = new System.Drawing.Point(200, 45);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(53, 21);
+            this.textBox7.Size = new System.Drawing.Size(33, 21);
             this.textBox7.TabIndex = 7;
             this.textBox7.Text = "0";
             this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox7_KeyPress);
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(95, 45);
+            this.textBox8.Location = new System.Drawing.Point(77, 45);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(47, 21);
             this.textBox8.TabIndex = 6;
@@ -883,7 +874,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(148, 50);
+            this.label10.Location = new System.Drawing.Point(136, 50);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 12);
             this.label10.TabIndex = 3;
@@ -941,6 +932,17 @@
             this.groupBox9.TabIndex = 24;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "0x08";
+            // 
+            // checkBox34
+            // 
+            this.checkBox34.AutoSize = true;
+            this.checkBox34.Location = new System.Drawing.Point(133, 22);
+            this.checkBox34.Name = "checkBox34";
+            this.checkBox34.Size = new System.Drawing.Size(48, 16);
+            this.checkBox34.TabIndex = 29;
+            this.checkBox34.Text = "隐藏";
+            this.checkBox34.UseVisualStyleBackColor = true;
+            this.checkBox34.CheckedChanged += new System.EventHandler(this.Msg0x08Encode);
             // 
             // button_0x08Send
             // 
@@ -2161,6 +2163,28 @@
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "0x0D";
             // 
+            // checkBox36
+            // 
+            this.checkBox36.AutoSize = true;
+            this.checkBox36.Location = new System.Drawing.Point(139, 159);
+            this.checkBox36.Name = "checkBox36";
+            this.checkBox36.Size = new System.Drawing.Size(66, 16);
+            this.checkBox36.TabIndex = 31;
+            this.checkBox36.Text = "显示---";
+            this.checkBox36.UseVisualStyleBackColor = true;
+            this.checkBox36.CheckedChanged += new System.EventHandler(this.Msg0x0DEncode);
+            // 
+            // checkBox35
+            // 
+            this.checkBox35.AutoSize = true;
+            this.checkBox35.Location = new System.Drawing.Point(139, 127);
+            this.checkBox35.Name = "checkBox35";
+            this.checkBox35.Size = new System.Drawing.Size(66, 16);
+            this.checkBox35.TabIndex = 30;
+            this.checkBox35.Text = "显示---";
+            this.checkBox35.UseVisualStyleBackColor = true;
+            this.checkBox35.CheckedChanged += new System.EventHandler(this.Msg0x0DEncode);
+            // 
             // groupBox20
             // 
             this.groupBox20.Controls.Add(this.groupBox21);
@@ -2475,38 +2499,27 @@
             this.textBox_0x0DSend.Size = new System.Drawing.Size(224, 21);
             this.textBox_0x0DSend.TabIndex = 23;
             // 
-            // checkBox34
+            // checkBox37
             // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(133, 22);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(66, 16);
-            this.checkBox34.TabIndex = 29;
-            this.checkBox34.Text = "显示---";
-            this.checkBox34.UseVisualStyleBackColor = true;
-            this.checkBox34.CheckedChanged += new System.EventHandler(this.Msg0x08Encode);
+            this.checkBox37.AutoSize = true;
+            this.checkBox37.Location = new System.Drawing.Point(149, 50);
+            this.checkBox37.Name = "checkBox37";
+            this.checkBox37.Size = new System.Drawing.Size(48, 16);
+            this.checkBox37.TabIndex = 18;
+            this.checkBox37.Text = "隐藏";
+            this.checkBox37.UseVisualStyleBackColor = true;
+            this.checkBox37.CheckedChanged += new System.EventHandler(this.Msg0x05Encode);
             // 
-            // checkBox35
+            // checkBox38
             // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.Location = new System.Drawing.Point(139, 127);
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(66, 16);
-            this.checkBox35.TabIndex = 30;
-            this.checkBox35.Text = "显示---";
-            this.checkBox35.UseVisualStyleBackColor = true;
-            this.checkBox35.CheckedChanged += new System.EventHandler(this.Msg0x0DEncode);
-            // 
-            // checkBox36
-            // 
-            this.checkBox36.AutoSize = true;
-            this.checkBox36.Location = new System.Drawing.Point(139, 159);
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(66, 16);
-            this.checkBox36.TabIndex = 31;
-            this.checkBox36.Text = "显示---";
-            this.checkBox36.UseVisualStyleBackColor = true;
-            this.checkBox36.CheckedChanged += new System.EventHandler(this.Msg0x0DEncode);
+            this.checkBox38.AutoSize = true;
+            this.checkBox38.Location = new System.Drawing.Point(239, 46);
+            this.checkBox38.Name = "checkBox38";
+            this.checkBox38.Size = new System.Drawing.Size(42, 16);
+            this.checkBox38.TabIndex = 23;
+            this.checkBox38.Text = "---";
+            this.checkBox38.UseVisualStyleBackColor = true;
+            this.checkBox38.CheckedChanged += new System.EventHandler(this.Msg0x07Encode);
             // 
             // MainForm
             // 
@@ -2525,7 +2538,8 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
-            this.Text = "速显微电子-群龙T15测试 V1.0";
+            this.Text = "速显微电子-群龙T15测试 V1.1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
@@ -2595,7 +2609,6 @@
         private System.Windows.Forms.RadioButton radioButton15;
         private System.Windows.Forms.RadioButton radioButton14;
         private System.Windows.Forms.RadioButton radioButton13;
-        private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton radioButton10;
@@ -2778,6 +2791,8 @@
         private System.Windows.Forms.CheckBox checkBox34;
         private System.Windows.Forms.CheckBox checkBox36;
         private System.Windows.Forms.CheckBox checkBox35;
+        private System.Windows.Forms.CheckBox checkBox37;
+        private System.Windows.Forms.CheckBox checkBox38;
 
     }
 }

@@ -149,10 +149,18 @@ namespace GC_QL_T15
             dat[0] = (byte)val16;
             dat[1] = (byte)(val16 >> 8);
             //瞬时功率
-            dbl = Convert.ToDouble(textBox_InstantaneousPower.Text);
-            val16 = Convert.ToUInt16(dbl * 10);
-            dat[2] = (byte)val16;
-            dat[3] = (byte)(val16 >> 8);
+            if (checkBox37.Checked == true)
+            {
+                dat[2] = 0xff;
+                dat[3] = 0xff;
+            }
+            else
+            {
+                dbl = Convert.ToDouble(textBox_InstantaneousPower.Text);
+                val16 = Convert.ToUInt16(dbl * 10);
+                dat[2] = (byte)val16;
+                dat[3] = (byte)(val16 >> 8);
+            }
             //瞬时能耗
             dbl = Convert.ToDouble(textBox_InstantaneousEnergyConsumption.Text);
             val8 = Convert.ToByte(dbl * 4);
@@ -199,25 +207,20 @@ namespace GC_QL_T15
                 dat[6] &= 0x0F;
                 dat[6] |= 0x00;
             }
-            else if (radioButton12.Checked == true)
+            else if (radioButton13.Checked == true)
             {
                 dat[6] &= 0x0F;
                 dat[6] |= 0x10;
             }
-            else if (radioButton13.Checked == true)
+            else if (radioButton14.Checked == true)
             {
                 dat[6] &= 0x0F;
                 dat[6] |= 0x20;
             }
-            else if (radioButton14.Checked == true)
-            {
-                dat[6] &= 0x0F;
-                dat[6] |= 0x30;
-            }
             else if (radioButton15.Checked == true)
             {
                 dat[6] &= 0x0F;
-                dat[6] |= 0x40;
+                dat[6] |= 0x30;
             }
             else
             {
@@ -405,10 +408,18 @@ namespace GC_QL_T15
             dat[4] = (byte)val16;
             dat[5] = (byte)(val16 >> 8);
             //续航里程
-            dbl = Convert.ToDouble(textBox7.Text);
-            val16 = (UInt16)dbl;
-            dat[6] = (byte)val16;
-            dat[7] = (byte)(val16 >> 8);
+            if (checkBox38.Checked == true)
+            {
+                dat[6] = 0xff;
+                dat[7] = 0xff;
+            }
+            else
+            {
+                dbl = Convert.ToDouble(textBox7.Text);
+                val16 = (UInt16)dbl;
+                dat[6] = (byte)val16;
+                dat[7] = (byte)(val16 >> 8);
+            }
 
             frame = msg_frame_0x07.Encode(0x07, dat);
             textBox_0x07Send.Text = msg_frame_0x07.ByteArrayToHexString(frame);
@@ -1286,11 +1297,11 @@ namespace GC_QL_T15
             {
                 dat[7] = 0x01;
             }
-            else if (radioButton34.Checked == true)
+            else if (radioButton35.Checked == true)
             {
                 dat[7] = 0x02;
             }
-            else if (radioButton34.Checked == true)
+            else if (radioButton36.Checked == true)
             {
                 dat[7] = 0x03;
             }
@@ -1827,6 +1838,11 @@ namespace GC_QL_T15
             }
 
             serialPort.Write(msg_frame_0x0B.HexStringToByteArray(textBox_0x0BSend.Text), 0, 12);
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
