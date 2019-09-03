@@ -1,0 +1,185 @@
+{
+	"NumOfLine" : 0,
+	"Line" : [
+		{
+			"Index" : 1,
+			"IsSelect" : false,
+			"RegType" : "普通寄存器",
+			"Name": "中间切换",
+			"RegID" : "1000",
+			"WValue" : "1",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 2,
+			"IsSelect" : false,
+			"RegType" : "普通寄存器",
+			"Name": "累积油耗",
+			"RegID" : "1001",
+			"WValue" : "11",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 3,
+			"IsSelect" : false,
+			"RegType" : "普通寄存器",
+			"Name": "平均油耗",
+			"RegID" : "1002",
+			"WValue" : "22",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 4,
+			"IsSelect" : false,
+			"RegType" : "普通寄存器",
+			"Name": "瞬时油耗",
+			"RegID" : "1003",
+			"WValue" : "33",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 5,
+			"IsSelect" : false,
+			"RegType" : "普通寄存器",
+			"Name": "FMI",
+			"RegID" : "1004",
+			"WValue" : "44",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 6,
+			"IsSelect" : false,
+			"RegType" : "普通寄存器",
+			"Name": "SPN",
+			"RegID" : "1005",
+			"WValue" : "55",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 7,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "新车速比",
+			"RegID" : "1006",
+			"WValue" : "66",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 8,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "密码",
+			"RegID" : "1007",
+			"WValue" : "77",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 9,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "原车速比",
+			"RegID" : "1008",
+			"WValue" : "88",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 10,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "油压",
+			"RegID" : "1009",
+			"WValue" : "99",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 11,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "电压",
+			"RegID" : "1010",
+			"WValue" : "12",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 12,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "气压2",
+			"RegID" : "1011",
+			"WValue" : "5",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 13,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "气压1",
+			"RegID" : "1012",
+			"WValue" : "6",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 14,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "符号片",
+			"RegID" : "10",
+			"WValue" : "255",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 15,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "小计里程",
+			"RegID" : "12",
+			"WValue" : "123",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 16,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "总里程",
+			"RegID" : "13",
+			"WValue" : "1234",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 17,
+			"IsSelect" : false,
+			"RegType": "普通寄存器",
+			"Name": "车速文字",
+			"RegID" : "16",
+			"WValue" : "16",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 18,
+			"IsSelect" : false,
+			"RegType": "字符串寄存器",
+			"Name": "车速仪表盘",
+			"RegID" : "19",
+			"WValue" : "345",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		}
+		]
+}

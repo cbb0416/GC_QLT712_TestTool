@@ -1,0 +1,14 @@
+D:\Github\GC_QLT712_TestTool\UserControl\bin\Debug\CommandLine.dll
+D:\Github\GC_QLT712_TestTool\UserControl\bin\Debug\CommandLine.pdb
+D:\Github\GC_QLT712_TestTool\UserControl\obj\Debug\SingleSelect.CommandLine.resources
+D:\Github\GC_QLT712_TestTool\UserControl\obj\Debug\UserControl.csproj.GenerateResource.Cache
+D:\Github\GC_QLT712_TestTool\UserControl\obj\Debug\CommandLine.dll
+D:\Github\GC_QLT712_TestTool\UserControl\obj\Debug\CommandLine.pdb
+D:\Github\GC_QLT712_TestTool\UserControl\obj\Debug\UserControl.csprojResolveAssemblyReference.cache
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\CommandLine.dll
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\CommandLine.pdb
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\UserControl.csprojResolveAssemblyReference.cache
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\SingleSelect.CommandLine.resources
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\UserControl.csproj.GenerateResource.Cache
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\CommandLine.dll
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\CommandLine.pdb

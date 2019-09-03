@@ -1,0 +1,11 @@
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\Cmd.dll
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\Cmd.pdb
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\Cmd.csproj.GenerateResource.Cache
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\Cmd.dll
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\Cmd.pdb
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\Cmd.Command.resources
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\Cmd.CommandLine.resources
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\Newtonsoft.Json.dll
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\Newtonsoft.Json.pdb
+D:\Github\GC_QLT712_TestTool\CommandLine\bin\Debug\Newtonsoft.Json.xml
+D:\Github\GC_QLT712_TestTool\CommandLine\obj\Debug\Cmd.csprojResolveAssemblyReference.cache

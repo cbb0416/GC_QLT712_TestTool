@@ -1,0 +1,6 @@
+D:\Github\GC_QLT712_TestTool\SingleSelect\bin\Debug\CommandLine.dll
+D:\Github\GC_QLT712_TestTool\SingleSelect\bin\Debug\CommandLine.pdb
+D:\Github\GC_QLT712_TestTool\SingleSelect\obj\Debug\SingleSelect.CommandLine.resources
+D:\Github\GC_QLT712_TestTool\SingleSelect\obj\Debug\CommandLine1.csproj.GenerateResource.Cache
+D:\Github\GC_QLT712_TestTool\SingleSelect\obj\Debug\CommandLine.dll
+D:\Github\GC_QLT712_TestTool\SingleSelect\obj\Debug\CommandLine.pdb

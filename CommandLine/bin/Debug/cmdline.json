@@ -1,0 +1,23 @@
+{
+	"NumOfLine" : 0,
+	"Lines" : [
+		{
+			"Index" : 1,
+			"IsSelect" : true,
+			"Name": "页面",
+			"RegID" : "2",
+			"WValue" : "2",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		},
+		{
+			"Index" : 2,
+			"IsSelect" : true,
+			"Name": "页面",
+			"RegID" : "2",
+			"WValue" : "2",
+			"RValue" : "",
+			"RFormat" : "Dec"
+		}
+	]
+}
